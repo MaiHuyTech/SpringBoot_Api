@@ -18,7 +18,7 @@ import javax.validation.constraints.NotBlank;
 public class Student {
     @Id
     @GeneratedValue
-    private int id;
+    private long id;
     @NotBlank(message = "Please add name Student!")
     @Length(max = 20, min= 1, message = "less than 10 and greater than 1")
     @Column(name = "name_student")

@@ -14,7 +14,7 @@ import lombok.*;
 @Setter
 @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 public class StudentDTO {
-    private int id;
+    private long id;
     private String nameStudent;
 
 }
